@@ -1,3 +1,5 @@
+// app/notes/error.tsx
+
 'use client';
 
 type Props = {

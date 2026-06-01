@@ -1,3 +1,5 @@
+// components/Footer/Footer.tsx
+
 import css from './Footer.module.css';
 
 const Footer = () => {

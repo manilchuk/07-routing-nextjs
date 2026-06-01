@@ -1,3 +1,5 @@
+// components/SearchBox/SearchBox.tsx
+
 import css from './SearchBox.module.css';
 
 interface SearchBoxProps {

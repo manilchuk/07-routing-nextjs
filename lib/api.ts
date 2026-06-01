@@ -1,3 +1,5 @@
+// lib/api.ts
+
 import axios from 'axios';
 import type { AxiosResponse } from 'axios';
 import type { Note } from '../types/note';
@@ -16,6 +18,7 @@ export interface FetchNotesParams {
   page: number;
   perPage: number;
   search?: string;
+  tag?: string;
 }
 
 export interface FetchNotesResponse {
