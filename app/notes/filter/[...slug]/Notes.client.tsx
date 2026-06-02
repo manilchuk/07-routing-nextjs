@@ -1,3 +1,5 @@
+// app/notes/filter/[...slug]/Notes.client.tsx
+
 'use client';
 
 import NotesView from '@/components/NotesView/NotesView';

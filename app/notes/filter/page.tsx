@@ -1,5 +1,7 @@
 // app/notes/filter/page.tsx
 
+import { redirect } from 'next/navigation';
+
 export default function FilterRoot() {
-  return null;
+  redirect('/notes/filter/all');
 }
