@@ -1,6 +1,6 @@
 // app/notes/filter/[...slug]/page.tsx
 
-import NotesView from '@/components/NotesView/NotesView';
+import NotesClient from './Notes.client';
 
 type Props = {
   params: Promise<{
@@ -13,5 +13,5 @@ export default async function FilterNotesPage({ params }: Props) {
 
   const currentTag = slug?.[0] ?? 'all';
 
-  return <NotesView tag={currentTag} />;
+  return <NotesClient tag={currentTag} />;
 }
