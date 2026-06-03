@@ -8,7 +8,6 @@ import {
 
 import { fetchNoteById } from '@/lib/api';
 
-import NotePreviewModal from '@/app/@modal/NotePreviewModal';
 import NotePreview from './NotePreview.client';
 
 type Props = {
@@ -27,9 +26,7 @@ export default async function NotePreviewPage({ params }: Props) {
 
   return (
     <HydrationBoundary state={dehydrate(queryClient)}>
-      <NotePreviewModal>
-        <NotePreview />
-      </NotePreviewModal>
+      <NotePreview />
     </HydrationBoundary>
   );
 }
